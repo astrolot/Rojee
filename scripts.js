@@ -78,7 +78,7 @@ function startCountdown() {
     let targetMonth = 7; // 0 = January, 7 = August
     let targetDay = 20;
     let targetHour = 0;// 0 = 12:00 AM
-    let targetMinute =0;
+    let targetMinute =28;
     let targetSecond = 0;
 
     const targetDate = new Date(targetYear, targetMonth, targetDay, targetHour, targetMinute, targetSecond).getTime();
